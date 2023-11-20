@@ -2,7 +2,7 @@ import React from 'react';
 
 import './Input.css';
 
-const Input = ({ setMessage, sendMessage, message }) => {
+const Input = ({ message, setMessage, sendMessage }) => {
   return (
     <form className='form'>
       <input
